@@ -1,0 +1,42 @@
+.home {
+    .title {
+        font-family   : 'Raleway', sans-serif;
+        text-align: center;
+        letter-spacing: 5px;
+        position      : relative;
+        animation-name: fade;
+    }
+
+    h1 {
+        font-size: 70px;
+        text-transform: uppercase;
+        padding: 100px 0;
+        animation-duration: 6s;
+    }
+
+    h3 {
+        animation-duration: 4s;
+    }
+
+    h4 {
+        animation-duration: 3s;
+    }
+}
+
+
+@keyframes fade {
+    0% {
+        top    : -150px;
+        opacity: 0.1;
+    }
+
+    50% {
+        top: 0;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .home h1 {
+        font-size: 40px;
+    }
+}
