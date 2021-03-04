@@ -1,4 +1,12 @@
 .vscode
 .DS_Store
+
+# Sass
 .sass-cache/
 style.css.map
+index.css.map
+about-me.css.map
+skills.css.map
+projects.css.map
+blog.css.map
+contact.css.map
