@@ -1,4 +1,7 @@
-.home {
+.index {
+    height: 100vh;
+    padding: 0;
+    justify-content: center;
     .title {
         font-family   : 'Raleway', sans-serif;
         text-align: center;
@@ -10,11 +13,12 @@
     h1 {
         font-size: 70px;
         text-transform: uppercase;
-        padding: 100px 0;
+        margin-bottom: 120px;
         animation-duration: 6s;
     }
 
     h3 {
+        margin-bottom: 2px;
         animation-duration: 4s;
     }
 
@@ -36,7 +40,7 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
-    .home h1 {
-        font-size: 40px;
+    .index h1 {
+        font-size: 50px;
     }
 }
