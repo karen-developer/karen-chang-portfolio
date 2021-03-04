@@ -34,6 +34,7 @@ nav {
     font-size       : 30px;
     background-color: $color1;
     box-shadow      : $shadow;
+    z-index        : 1;
 
     a {
         color: $color3;
