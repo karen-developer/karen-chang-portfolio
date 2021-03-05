@@ -12,53 +12,91 @@
     ></script>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
 
     <title>Karen Chang | Web Developer</title>
   </head>
   <body>
+    <header>
+      <!-- Nav -->
+      <nav>
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="about-me.html"><i class="fas fa-smile active"></i></a>
+        <a href="skills.html"><i class="fas fa-toolbox"></i></a>
+        <a href="projects.html"><i class="fas fa-icons"></i></a>
+        <a href="blog.html"><i class="fas fa-rss-square"></i></a>
+        <a href="contact.html"><i class="fas fa-link"></i></a>
+      </nav>
+    </header>
 
-      <header>
-        <!-- Nav -->
-        <nav>
-          <a href="index.html"><i class="fas fa-home"></i></a>
-          <a href="about-me.html"><i class="fas fa-smile active"></i></a>
-          <a href="skills.html"><i class="fas fa-toolbox"></i></a>
-          <a href="projects.html"><i class="fas fa-icons"></i></a>
-          <a href="blog.html"><i class="fas fa-rss-square"></i></a>
-          <a href="contact.html"><i class="fas fa-link"></i></a>
-        </nav>
-      </header>
-
-      <!-- Main -->
-      <main>
-        <h1>About Me</h1>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel
-          maiores similique fuga nobis porro eos laboriosam molestias
-          consequuntur blanditiis tenetur inventore deserunt, atque officiis!
-          Asperiores atque ab libero magnam?
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel
-            maiores similique fuga nobis porro eos laboriosam molestias
-            consequuntur blanditiis tenetur inventore deserunt, atque officiis!
-            Asperiores atque ab libero magnam?
+    <!-- Main -->
+    <main class="about-me">
+      <h1>About Me</h1>
+      <figure class="study">
+        <img src="images/karen/coder-academy.jpeg" alt="Karen's Photo" />
+        <figcaption>
+          <p>
+            My name is Karen Chang, a Web Developer from Taipei, Taiwan and
+            located in Melbourne, Australia.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel
-            maiores similique fuga nobis porro eos laboriosam molestias
-            consequuntur blanditiis tenetur inventore deserunt, atque officiis!
-            Asperiores atque ab libero magnam?
+            Currently studying Higher Education Diploma of Information
+            Technology at
+            <a href="https://coderacademy.edu.au/" target="_blank"
+              >Coder Academy</a
+            >
+            and specializing in Full Stack Web Development.
           </p>
-      </main>
+        </figcaption>
+      </figure>
 
+      <h2>Code Lover</h2>
+      <figure class="challenge">
+        <img src="images/karen/100daysofcode.jpeg" alt="100DaysOfCode Photo" />
+        <img
+          src="images/karen/instagram-100daysofcode.jpeg"
+          alt="100DaysOfCode On Instagram"
+        />
+        <figcaption>
+          <h3>August - November 2020</h3>
+          <p>
+            My #100DaysOfCode challenge has been successfully completed on
+            <a href="https://www.instagram.com/karen_developer" target="_blank"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >.
+          </p>
+          <p>100 days, 100+ coding challenges, 100 posts, non-stop!</p>
+        </figcaption>
+      </figure>
+
+      <h2>Books / Plants Lover</h2>
+      <figure class="interests">
+        <img src="images/karen/plants.jpeg" alt="Karen With Plants" />
+        <img src="images/karen/book1.jpeg" alt="Karen's Book" />
+        <img src="images/karen/book2.jpeg" alt="Karen's Book" />
+        <img src="images/karen/book3.jpeg" alt="Karen's Book" />
+        <figcaption>
+          <p>
+            Books are entertainment and reading allows me to experience multiple
+            realities and improve my analytical thinking skills.
+          </p>
+          <p>
+            Plants make me happy and bring feelings of vitality. Do you know
+            that plants can also improve concentration and boost memory?
+          </p>
+        </figcaption>
+      </figure>
+    </main>
+    <footer>
+      <p>© 2021 Made with <i class="far fa-heart"></i> by Karen Chang</p>
+    </footer>
   </body>
 </html>
