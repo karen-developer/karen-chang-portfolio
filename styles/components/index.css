@@ -8,7 +8,7 @@
     text-align: center;
     letter-spacing: 5px;
     position: relative;
-    animation-name: fade; }
+    animation-name: fade-in; }
   .index h1 {
     text-transform: uppercase;
     font-size: 70px;
@@ -20,7 +20,7 @@
   .index h4 {
     animation-duration: 3s; }
 
-@keyframes fade {
+@keyframes fade-in {
   0% {
     top: -150px;
     opacity: 0.1; }

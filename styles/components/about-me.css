@@ -18,19 +18,30 @@ nav {
   height: 100vh;
   width: 30px;
   padding: 0 30px;
-  font-size: 30px;
+  font-size: 28px;
   background-color: #f7f7f7;
   box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
   z-index: 1; }
   nav a {
-    color: #929aab; }
+    color: #929aab;
+    position: relative;
+    animation-name: left-fade-in;
+    animation-duration: 2s; }
   nav a:hover {
     color: #393e46;
     transition: 1s ease;
     transform: rotate(360deg); }
   nav .active {
     color: #393e46; }
-
+@keyframes left-fade-in {
+  0% {
+    left: -150px;
+    opacity: 0.1; }
+  50% {
+    font-size: 18px;
+    top: 0; }
+  100% {
+    left: 0; } }
 main {
   display: flex;
   flex-direction: column;
@@ -40,7 +51,19 @@ main {
   main a:hover {
     color: #929aab;
     transition: .5s ease-in-out; }
-
+  main h1 {
+    position: relative;
+    animation-name: top-fade-in;
+    animation-duration: 2s; }
+@keyframes top-fade-in {
+  0% {
+    top: -150px;
+    opacity: 0.1; }
+  50% {
+    font-size: 30px;
+    top: 0; }
+  100% {
+    top: 0; } }
 footer {
   font-size: 18px;
   display: flex;
@@ -59,7 +82,7 @@ footer {
     padding: 120px 60px 60px 60px; }
 
   h1 {
-    font-size: 36px; }
+    font-size: 38px; }
 
   h2 {
     font-size: 26px; }
