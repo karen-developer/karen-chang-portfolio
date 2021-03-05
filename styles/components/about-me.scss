@@ -1,0 +1,78 @@
+@import "../global.scss";
+
+.about-me {
+    img {
+        border-radius: 5px;
+        box-shadow   : $strong-shadow;
+    }
+
+    h2 {
+        @include bottom-border();
+    }
+}
+
+.study {
+    display: flex;
+    margin : 50px;
+
+    img {
+        width       : 200px;
+        height      : 200px;
+        margin-right: 70px;
+    }
+}
+
+.challenge {
+    display       : flex;
+    flex-direction: row-reverse;
+    align-items   : center;
+    margin-bottom : 50px;
+
+    img {
+        width : 150px;
+        height: 150px;
+        margin: 30px;
+    }
+}
+
+.interests {
+    margin-bottom: 50px;
+
+    img {
+        width : 135px;
+        height: 135px;
+        margin: 30px 60px 40px 0;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .study {
+        flex-direction: column;
+        margin        : 0;
+
+        img {
+            margin: 30px 0 40px;
+        }
+    }
+
+    .challenge {
+        display: block;
+        margin : 20px 0;
+
+        img {
+            width : 98px;
+            height: 98px;
+            margin: 13px 26px 13px 0;
+        }
+    }
+
+    .interests {
+        margin: 20px 0;
+
+        img {
+            width : 98px;
+            height: 98px;
+            margin: 13px 26px 13px 0;
+        }
+    }
+}
