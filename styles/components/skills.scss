@@ -5,7 +5,7 @@
     grid-template-columns: 1.5fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .tools {
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
+    margin: 60px 0;
     h3 {
         font-size: 30px;
         text-transform: uppercase;
@@ -45,13 +45,43 @@
 } 
 
 .certification {
+    display              : grid;
+    justify-items        : center;
+    align-items          : top;
+    text-align           : center;
+    grid-template-columns: 1fr 1fr;
+    img {
+        width: 260px;
+        height: 180px;
+        margin: 30px 0 20px;
+        box-shadow: $light-shadow;
+    }
+    figure {
+        margin: 0;
+    }
+    time {
+        font-size: 18px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .iconify,
+    i {
+        margin: 0 5px;
+    }
 }
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
-    .fullstack {
+    .fullstack,
+    .certification {
         grid-template-columns: 1fr;
     }
-
+    .certification {
+        img {
+            width: 200px;
+            height: 140px;
+       }
+    }
 }
     

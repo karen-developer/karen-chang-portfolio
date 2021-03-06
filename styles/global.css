@@ -9,7 +9,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+time {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 3px; }
 
@@ -57,7 +58,7 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  padding: 50px 150px 30px 280px; }
+  padding: 50px 150px 50px 280px; }
   main a {
     color: #393e46; }
   main a:hover {
@@ -91,6 +92,6 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 120px 60px 30px 60px; } }
+    padding: 120px 60px 60px 60px; } }
 
 /*# sourceMappingURL=global.css.map */
