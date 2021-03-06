@@ -55,7 +55,7 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  padding: 50px 150px 50px 280px; }
+  padding: 30px 150px 50px 280px; }
   main a {
     color: #393e46; }
   main a:hover {
@@ -115,12 +115,10 @@ footer {
     height: 150px;
     margin-left: 50px; }
 
-.interests {
-  margin-bottom: 50px; }
-  .interests img {
-    width: 135px;
-    height: 135px;
-    margin: 30px 60px 40px 0; }
+.interests img {
+  width: 135px;
+  height: 135px;
+  margin: 30px 60px 40px 0; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   .study {

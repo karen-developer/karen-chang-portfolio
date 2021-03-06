@@ -55,7 +55,7 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  padding: 50px 150px 50px 280px; }
+  padding: 30px 150px 50px 280px; }
   main a {
     color: #393e46; }
   main a:hover {
