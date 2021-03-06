@@ -1,25 +1,22 @@
 body {
   font-size: 22px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
   background-color: #eeeeee;
   color: #393e46;
   margin: 0; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-time {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px; }
+p {
+  font-family: 'Manrope', sans-serif; }
 
 h2 {
   border-bottom: 2px solid #393e46;
   padding-bottom: 15px; }
 
-p {
-  letter-spacing: 1px; }
+h1,
+h2,
+h3 {
+  letter-spacing: 2px; }
 
 nav {
   position: fixed;

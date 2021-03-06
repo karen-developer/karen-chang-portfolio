@@ -13,28 +13,25 @@ $strong-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
 
 body {
     font-size       : 22px;
-    font-family     : 'Manrope', sans-serif;
+    font-family     : 'Raleway', sans-serif;
+    letter-spacing  : 1px;
     background-color: $color2;
     color           : $color4;
     margin          : 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-time {
-    font-family   : 'Raleway', sans-serif;
-    letter-spacing: 3px;
+p {
+    font-family: 'Manrope', sans-serif;
 }
 
 h2 {
     @include bottom-border();
 }
 
-p {
-    letter-spacing: 1px;
+h1,
+h2,
+h3 {
+    letter-spacing: 2px;
 }
 
 // Nav
