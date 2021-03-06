@@ -30,7 +30,7 @@ nav {
   padding: 0 30px;
   font-size: 28px;
   background-color: #f7f7f7;
-  box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
   z-index: 1; }
   nav a {
     color: #929aab;
@@ -102,7 +102,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f7f7f7;
-  box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
   padding: 30px 5px; }
   .tools svg,
   .tools img {
@@ -137,7 +137,7 @@ footer {
     width: 260px;
     height: 180px;
     margin: 30px 0 20px;
-    box-shadow: 0 0 10px rgba(50, 50, 50, 0.2); }
+    box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4); }
   .certification figure {
     margin: 0; }
   .certification time {
