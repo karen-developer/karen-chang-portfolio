@@ -1,0 +1,30 @@
+@import "../global.scss";
+
+.projects {
+    display              : grid;
+    text-align           : center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    margin: 30px 0;
+    img {
+        width: 200px;
+        height: 140px;
+        margin-bottom: 20px;
+        box-shadow: $strong-shadow;
+        border-radius: 10px;
+        transform    : translateY(0);
+        transition   : transform 0.3s ease-out;
+    }
+    img:hover {
+        transform: translateY(6px);
+        opacity: 0.8;
+    }
+    figure {
+        margin: 0;
+    }
+    i {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+}

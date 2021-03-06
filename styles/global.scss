@@ -2,10 +2,8 @@ $color1      : #f7f7f7;
 $color2      : #eeeeee;
 $color3      : #929aab;
 $color4      : #393e46;
-$light-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
-$strong-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-0 10px 10px rgba(0, 0, 0, 0.22);
-
+$light-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
+$strong-shadow: 10px 15px 15px -5px  rgba(50, 50, 50, 0.4);
 @mixin bottom-border {
     border-bottom : 2px solid $color4;
     padding-bottom: 15px;
@@ -141,5 +139,8 @@ footer {
 
     main {
         padding: 120px 60px 60px 60px;
+        h1 {
+            text-align: center;
+        }
     }
 }

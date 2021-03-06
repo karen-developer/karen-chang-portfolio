@@ -89,18 +89,21 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 120px 60px 60px 60px; } }
+    padding: 120px 60px 60px 60px; }
+    main h1 {
+      text-align: center; } }
 .about-me img {
   border-radius: 5px;
   box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4); }
 
 .study {
   display: flex;
+  align-items: center;
   margin-bottom: 50px; }
   .study img {
     width: 180px;
     height: 180px;
-    margin: 20px 70px 0 0; }
+    margin-right: 70px; }
 
 .challenge {
   display: flex;

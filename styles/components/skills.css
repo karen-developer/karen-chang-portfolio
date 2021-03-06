@@ -89,7 +89,9 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 120px 60px 60px 60px; } }
+    padding: 120px 60px 60px 60px; }
+    main h1 {
+      text-align: center; } }
 .fullstack {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
