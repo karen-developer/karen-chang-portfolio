@@ -158,6 +158,12 @@ footer {
 
   .certification img {
     width: 200px;
-    height: 140px; } }
+    height: 140px; }
+
+  .tools svg,
+  .tools img {
+    width: 35px;
+    height: 35px;
+    margin: 10px; } }
 
 /*# sourceMappingURL=skills.css.map */
