@@ -30,7 +30,7 @@ nav {
   padding: 0 30px;
   font-size: 28px;
   background-color: #f7f7f7;
-  box-shadow: 0 0 10px rgba(50, 50, 50, 0.2);
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
   z-index: 1; }
   nav a {
     color: #929aab;
@@ -92,7 +92,7 @@ footer {
     padding: 120px 60px 60px 60px; } }
 .about-me img {
   border-radius: 5px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4); }
 
 .study {
   display: flex;
