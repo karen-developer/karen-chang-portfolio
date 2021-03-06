@@ -5,10 +5,6 @@
         border-radius: 5px;
         box-shadow   : $strong-shadow;
     }
-
-    h2 {
-        @include bottom-border();
-    }
 }
 
 .study {

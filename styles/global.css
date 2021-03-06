@@ -5,8 +5,20 @@ body {
   color: #393e46;
   margin: 0; }
 
-h1 {
-  font-family: 'Raleway', sans-serif; }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px; }
+
+h2 {
+  border-bottom: 2px solid #393e46;
+  padding-bottom: 15px; }
+
+p {
+  letter-spacing: 1px; }
 
 nav {
   position: fixed;
@@ -65,7 +77,7 @@ main {
   100% {
     top: 0; } }
 footer {
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,18 +91,6 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 120px 60px 60px 60px; }
-
-  h1 {
-    font-size: 38px; }
-
-  h2 {
-    font-size: 26px; }
-
-  h3 {
-    font-size: 22px; }
-
-  footer {
-    font-size: 14px; } }
+    padding: 120px 60px 30px 60px; } }
 
 /*# sourceMappingURL=global.css.map */
