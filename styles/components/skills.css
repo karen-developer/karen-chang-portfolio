@@ -79,7 +79,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px; }
+  margin-top: 10px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   nav {
@@ -145,6 +145,8 @@ footer {
     box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4); }
   .certification figure {
     margin: 0; }
+  .certification figcaption {
+    padding: 20px; }
   .certification time {
     font-size: 18px; }
   .certification p {

@@ -79,7 +79,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px; }
+  margin-top: 10px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   nav {
@@ -141,14 +141,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px; }
+  padding-top: 60px; }
   .repo i {
-    font-size: 40px;
-    margin-right: 40px;
+    font-size: 35px;
+    margin-right: 35px;
     opacity: 0.8; }
   .repo img {
-    width: 48px;
-    height: 48px;
+    width: 43px;
+    height: 43px;
     filter: grayscale(100%); }
   .repo img:hover {
     transition: .5s ease-in-out;
