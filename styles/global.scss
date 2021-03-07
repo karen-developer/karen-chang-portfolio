@@ -28,7 +28,8 @@ h2 {
 
 h1,
 h2,
-h3 {
+h3, 
+h4 {
     letter-spacing: 2px;
 }
 
@@ -57,7 +58,7 @@ nav {
 
     a:hover {
         color     : $color4;
-        transition: 1s ease;
+        transition: 1s ease-in-out;
         transform : rotate(360deg);
     }
 
@@ -85,8 +86,7 @@ nav {
 // Main
 main {
     display       : flex;
-    flex-direction: column;
-    padding       : 30px 150px 50px 280px;
+    padding       : 30px 150px 30px 280px;
 
     a {
         color: $color4;
@@ -122,11 +122,11 @@ main {
 
 // Footer
 footer {
-    font-size      : 16px;
+    font-size: 18px;
     display        : flex;
     justify-content: center;
     align-items    : center;
-    margin-bottom  : 15px;
+    margin-top  : 40px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
@@ -138,9 +138,12 @@ footer {
     }
 
     main {
-        padding: 120px 60px 60px 60px;
-        h1 {
+        padding: 120px 60px 20px 60px;
+        h1, h2 {
             text-align: center;
         }
+    }
+    footer {
+        font-size: 13px;
     }
 }

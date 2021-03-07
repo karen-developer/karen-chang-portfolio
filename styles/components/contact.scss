@@ -1,0 +1,68 @@
+@import "../global.scss";
+
+.contact {
+    background-color: rgb(200, 250, 252);
+}
+
+.name-card {
+    // display              : grid;
+    // justify-items: center;
+    // align-items: center;
+    // grid-template-columns: 40% 60%;
+    display: flex;
+
+    // transform-origin: 50% 50%;
+    // transform       : rotateX(0deg);
+    // transition      : opacity 1s ease, transform 1s ease;
+    // padding         : 100px;
+    background-color     : $color1;
+    box-shadow           : $light-shadow;
+    border-radius        : 8px;
+    // cursor          : default;
+    // max-width       : 100%;
+    // opacity         : 0.95;
+    // position        : relative;
+    // width           : 100%;
+    // margin: 50px auto;
+}
+
+.avatar {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    img {
+        border-radius: 50%;
+        width        : 60%;
+        box-shadow: $strong-shadow;
+    }
+}
+
+.social-media {
+    background-color: cadetblue;
+    display         : flex;
+    flex-wrap: wrap;
+    justify-content : center;
+    align-items: center;
+    padding: 30px;
+
+    i {
+        border: 2px solid $color4;
+        border-radius: 50%;
+        padding: 20px;
+        margin: 20px;
+        font-size: 30px;
+        
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .name-card {
+        flex-direction: column;
+        i {
+           font-size: 20px; 
+        }
+    }
+
+}

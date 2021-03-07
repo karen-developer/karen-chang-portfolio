@@ -9,12 +9,12 @@
 
 .study {
     display      : flex;
-    align-items: center;
+    align-items  : center;
     margin-bottom: 50px;
 
     img {
-        width : 180px;
-        height: 180px;
+        width       : 180px;
+        height      : 180px;
         margin-right: 70px;
     }
 }
@@ -26,8 +26,8 @@
     margin-bottom : 50px;
 
     img {
-        width : 150px;
-        height: 150px;
+        width      : 150px;
+        height     : 150px;
         margin-left: 50px;
     }
 }
@@ -52,16 +52,10 @@
 
     .challenge {
         display: block;
-        margin : 20px 0;
-
-        img {
-            width : 98px;
-            height: 98px;
-            margin: 13px 26px 13px 0;
-        }
     }
 
-    .interests {
+    .interests,
+    .challenge {
         margin: 20px 0;
 
         img {

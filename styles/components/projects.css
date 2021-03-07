@@ -15,7 +15,8 @@ h2 {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   letter-spacing: 2px; }
 
 nav {
@@ -39,7 +40,7 @@ nav {
     animation-duration: 2s; }
   nav a:hover {
     color: #393e46;
-    transition: 1s ease;
+    transition: 1s ease-in-out;
     transform: rotate(360deg); }
   nav .active {
     color: #393e46; }
@@ -54,8 +55,7 @@ nav {
     left: 0; } }
 main {
   display: flex;
-  flex-direction: column;
-  padding: 30px 150px 50px 280px; }
+  padding: 30px 150px 30px 280px; }
   main a {
     color: #393e46; }
   main a:hover {
@@ -75,11 +75,11 @@ main {
   100% {
     top: 0; } }
 footer {
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px; }
+  margin-top: 40px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   nav {
@@ -89,11 +89,15 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 120px 60px 60px 60px; }
-    main h1 {
-      text-align: center; } }
+    padding: 120px 60px 20px 60px; }
+    main h1, main h2 {
+      text-align: center; }
+
+  footer {
+    font-size: 13px; } }
 .projects {
   display: grid;
+  justify-items: center;
   text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 60px;
@@ -132,5 +136,30 @@ footer {
   .projects i {
     font-size: 18px;
     margin: 0 6px; }
+
+.repo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; }
+  .repo i {
+    font-size: 40px;
+    margin-right: 40px;
+    opacity: 0.8; }
+  .repo img {
+    width: 48px;
+    height: 48px;
+    filter: grayscale(100%); }
+  .repo img:hover {
+    transition: .5s ease-in-out;
+    opacity: 0.6; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  .repo i {
+    font-size: 30px;
+    margin-right: 30px; }
+  .repo img {
+    width: 38px;
+    height: 38px; } }
 
 /*# sourceMappingURL=projects.css.map */
