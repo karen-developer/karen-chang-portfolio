@@ -2,15 +2,14 @@
 
 .about-me {
     img {
-        border-radius: 5px;
-        box-shadow   : $strong-shadow;
+        box-shadow: $strong-shadow;
     }
 }
 
 .bio {
     display      : flex;
     align-items  : center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 
     img {
         width       : 180px;
@@ -23,7 +22,7 @@
     display       : flex;
     flex-direction: row-reverse;
     align-items   : center;
-    margin-bottom : 50px;
+    margin-bottom : 60px;
 
     img {
         width : 150px;
@@ -33,11 +32,17 @@
 }
 
 .interests {
+    margin-bottom: 70px;
+
     img {
         width : 135px;
         height: 135px;
         margin: 30px;
     }
+}
+
+.interests-title {
+    text-align: right;
 }
 
 .challenge-photo,
@@ -48,16 +53,12 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
-    h3 {
-        font-size: 22px;
-    }
-
     .bio {
         flex-direction: column;
         margin        : 0;
 
         img {
-            margin: 20px 0 30px;
+            margin: 15px 0 30px;
         }
     }
 

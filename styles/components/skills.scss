@@ -5,7 +5,7 @@
     grid-template-columns: 1.5fr 1fr;
     justify-items        : center;
     align-items          : center;
-    margin               : 20px 0;
+    margin               : 20px 0 30px;
 }
 
 .tools {
@@ -13,6 +13,7 @@
     flex-wrap       : wrap;
     justify-content : center;
     background-color: $color1;
+    border-radius   : 5px;
     box-shadow      : $light-shadow;
     padding         : 30px 0;
 
@@ -28,7 +29,7 @@
     display       : flex;
     flex-direction: column;
     align-items   : center;
-    margin        : 60px 0;
+    margin        : 50px 0;
 
     h3 {
         font-size     : 30px;
@@ -54,11 +55,12 @@
     align-items          : top;
     text-align           : center;
     grid-template-columns: 1fr 1fr;
+    margin               : 20px 0;
 
     img {
         width     : 260px;
         height    : 180px;
-        margin    : 30px 0 20px;
+        margin    : 20px 0 15px;
         box-shadow: $strong-shadow;
     }
 
@@ -71,16 +73,20 @@
     }
 
     time {
-        font-size: 18px;
+        font-size : 18px;
+        font-style: italic;
     }
 
     p {
         font-size: 20px;
     }
 
-    .iconify,
     i {
-        margin: 0 5px;
+        margin-right: 3px;
+    }
+
+    .iconify {
+        margin: 0 3px -3px 0;
     }
 }
 
@@ -91,21 +97,18 @@
         grid-template-columns: 1fr;
     }
 
+    .fullstack {
+        margin-bottom: 0;
+    }
+
     .tools {
         padding: 16px 0;
 
         svg,
         img {
-            width : 24px;
-            height: 24px;
+            width : 28px;
+            height: 28px;
             margin: 8px;
-        }
-    }
-
-    .certification {
-        img {
-            width : 200px;
-            height: 140px;
         }
     }
 }

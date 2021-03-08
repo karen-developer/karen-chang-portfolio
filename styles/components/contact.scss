@@ -1,68 +1,64 @@
 @import "../global.scss";
 
-.contact {
-    background-color: rgb(200, 250, 252);
-}
-
 .name-card {
-    // display              : grid;
-    // justify-items: center;
-    // align-items: center;
-    // grid-template-columns: 40% 60%;
-    display: flex;
-
-    // transform-origin: 50% 50%;
-    // transform       : rotateX(0deg);
-    // transition      : opacity 1s ease, transform 1s ease;
-    // padding         : 100px;
-    background-color     : $color1;
-    box-shadow           : $light-shadow;
-    border-radius        : 8px;
-    // cursor          : default;
-    // max-width       : 100%;
-    // opacity         : 0.95;
-    // position        : relative;
-    // width           : 100%;
-    // margin: 50px auto;
+    display         : flex;
+    flex-direction  : column;
+    background-color: $color1;
+    box-shadow      : $strong-shadow;
+    border-radius   : 5px;
+    text-transform  : uppercase;
+    margin          : 20px auto 50px;
 }
 
 .avatar {
-    background-color: brown;
-    display: flex;
+    display        : flex;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
-    padding: 30px;
+    align-items    : center;
+    text-align     : center;
+
+    margin: 40px auto 0;
+
     img {
+        box-shadow   : $light-shadow;
         border-radius: 50%;
-        width        : 60%;
-        box-shadow: $strong-shadow;
+        width        : 45%;
+        margin       : 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h5 {
+        margin-top: 5px;
     }
 }
 
-.social-media {
-    background-color: cadetblue;
-    display         : flex;
-    flex-wrap: wrap;
-    justify-content : center;
-    align-items: center;
-    padding: 30px;
+.contact-photo {
+    background-color: rgb(231, 231, 231);
+    margin-bottom   : 20px;
+}
 
+.contact-links {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+    a {
+        color: $color3;
+    }
     i {
-        border: 2px solid $color4;
+        font-size    : 30px;
+        border       : 2px solid $color3;
         border-radius: 50%;
-        padding: 20px;
-        margin: 20px;
-        font-size: 30px;
-        
-    }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
-    .name-card {
-        flex-direction: column;
-        i {
-           font-size: 20px; 
-        }
+        padding      : 15px;
+        margin       : 0 10px 30px;
+        transition: .5s ease-in-out;
     }
 
+    i:hover {
+        color: $color4;
+        border: 2px solid $color4;
+    }
 }

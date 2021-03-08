@@ -1,12 +1,15 @@
-$color1      : #f7f7f7;
-$color2      : #eeeeee;
-$color3      : #929aab;
-$color4      : #393e46;
-$light-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
-$strong-shadow: 10px 15px 15px -5px  rgba(50, 50, 50, 0.4);
+$color1       : #f7f7f7;
+$color2       : #eeeeee;
+$color3       : #929aab;
+$color4       : #393e46;
+$link: #a0dbdb;
+$link-hover: #56a7a7;
+$light-shadow : 0 0 10px 0 rgba(50, 50, 50, 0.2);
+$strong-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4);
+
 @mixin bottom-border {
     border-bottom : 2px solid $color4;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 }
 
 body {
@@ -18,19 +21,28 @@ body {
     margin          : 0;
 }
 
-p {
-    font-family: 'Manrope', sans-serif;
+h1 {
+    text-align: center;
 }
 
 h2 {
     @include bottom-border();
 }
 
+p {
+    font-family: 'Manrope', sans-serif;
+}
+
 h1,
 h2,
-h3, 
-h4 {
+h3,
+h4,
+h5 {
     letter-spacing: 2px;
+}
+
+img {
+    border-radius: 5px;
 }
 
 // Nav
@@ -41,17 +53,16 @@ nav {
     display         : flex;
     flex-direction  : column;
     justify-content : space-evenly;
-    height          : 100vh;
     width           : 30px;
-    padding         : 0 30px;
+    height          : 100vh;
     font-size       : 28px;
     background-color: $color1;
     box-shadow      : $light-shadow;
     z-index         : 1;
 
     a {
-        color             : $color3;
         position          : relative;
+        color             : $color3;
         animation-name    : left-fade-in;
         animation-duration: 2s;
     }
@@ -85,8 +96,8 @@ nav {
 
 // Main
 main {
-    display       : flex;
-    padding       : 30px 150px 30px 280px;
+    display: flex;
+    padding: 30px 150px 20px 280px;
 
     a {
         color: $color4;
@@ -122,11 +133,11 @@ main {
 
 // Footer
 footer {
-    font-size: 18px;
     display        : flex;
     justify-content: center;
     align-items    : center;
-    margin-top  : 10px;
+    font-size      : 18px;
+    margin-top     : 10px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
@@ -134,15 +145,12 @@ footer {
         flex-direction: row;
         width         : 100vw;
         height        : 40px;
-        padding       : 20px 0;
     }
 
     main {
-        padding: 120px 60px 20px 60px;
-        h1, h2 {
-            text-align: center;
-        }
+        padding: 100px 60px 20px 60px;
     }
+
     footer {
         font-size: 13px;
     }
