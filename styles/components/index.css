@@ -22,7 +22,7 @@
 @keyframes fade-in {
   0% {
     top: -150px;
-    opacity: 0.1; }
+    opacity: .1; }
   50% {
     top: 0; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {

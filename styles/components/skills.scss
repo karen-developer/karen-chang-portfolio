@@ -55,7 +55,7 @@
     align-items          : top;
     text-align           : center;
     grid-template-columns: 1fr 1fr;
-    margin               : 20px 0;
+    margin               : 15px 0;
 
     img {
         width     : 260px;
@@ -91,6 +91,11 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .skills {
+        h2 {
+            text-align: center;
+        }
+    }
 
     .fullstack,
     .certification {

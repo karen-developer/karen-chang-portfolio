@@ -45,8 +45,7 @@
     text-align: right;
 }
 
-.challenge-photo,
-.interests-photo {
+.photo-wrapper {
     display        : flex;
     flex-wrap      : wrap;
     justify-content: center;
@@ -66,7 +65,7 @@
         flex-direction: column;
         margin        : 0;
 
-        .challenge-photo {
+        .photo-wrapper {
             flex-wrap: nowrap;
         }
 

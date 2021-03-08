@@ -1,7 +1,5 @@
 @import "../global.scss";
 
-$card: #c06c84;
-
 .name-card {
     display         : flex;
     flex-direction  : column;
@@ -36,8 +34,8 @@ $card: #c06c84;
     }
 }
 
-.contact-photo {
-    background-color: $card;
+.photo-wrapper {
+    background-color: $color5;
     margin-bottom   : 20px;
 }
 
@@ -48,8 +46,7 @@ $card: #c06c84;
 
     i {
         font-size    : 30px;
-        color        : $card;
-        border       : 2px solid $card;
+        border       : 2px solid $color5;
         border-radius: 50%;
         padding      : 15px;
         margin       : 10px 10px 40px;
