@@ -63,9 +63,10 @@ main {
   display: flex;
   padding: 30px 150px 20px 280px; }
   main a {
-    color: #393e46; }
+    color: #c06c84;
+    text-decoration: none; }
   main a:hover {
-    color: #929aab;
+    color: #393e46;
     transition: .5s ease-in-out; }
   main h1 {
     position: relative;
@@ -144,8 +145,11 @@ footer {
   padding-top: 60px; }
   .repo i {
     font-size: 35px;
+    color: #393e46;
     opacity: .8;
     margin-right: 35px; }
+  .repo i:hover {
+    color: #929aab; }
   .repo img {
     width: 43px;
     height: 43px;

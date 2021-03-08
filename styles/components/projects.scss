@@ -62,8 +62,13 @@
 
     i {
         font-size   : 35px;
+        color: $color4;
         opacity     : .8;
         margin-right: 35px;
+    }
+
+    i:hover {
+        color: $color3;
     }
 
     img {

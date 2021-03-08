@@ -63,9 +63,10 @@ main {
   display: flex;
   padding: 30px 150px 20px 280px; }
   main a {
-    color: #393e46; }
+    color: #c06c84;
+    text-decoration: none; }
   main a:hover {
-    color: #929aab;
+    color: #393e46;
     transition: .5s ease-in-out; }
   main h1 {
     position: relative;
@@ -125,18 +126,17 @@ footer {
     margin-top: 5px; }
 
 .contact-photo {
-  background-color: #e7e7e7;
+  background-color: #c06c84;
   margin-bottom: 20px; }
 
 .contact-links {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .contact-links a {
-    color: #929aab; }
   .contact-links i {
     font-size: 30px;
-    border: 2px solid #929aab;
+    color: #c06c84;
+    border: 2px solid #c06c84;
     border-radius: 50%;
     padding: 15px;
     margin: 0 10px 30px;
