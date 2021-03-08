@@ -62,12 +62,12 @@ nav {
         position          : relative;
         color             : $color3;
         animation-name    : left-fade-in;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
     }
 
     a:hover {
         color     : $color4;
-        transition: 1s ease-in-out;
+        transition: .5s ease-in-out;
         transform : rotate(360deg);
     }
 
@@ -109,7 +109,7 @@ main {
     h1 {
         position          : relative;
         animation-name    : top-fade-in;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
     }
 
     @keyframes top-fade-in {

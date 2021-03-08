@@ -43,10 +43,10 @@ nav {
     position: relative;
     color: #929aab;
     animation-name: left-fade-in;
-    animation-duration: 2s; }
+    animation-duration: 1.5s; }
   nav a:hover {
     color: #393e46;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
     transform: rotate(360deg); }
   nav .active {
     color: #393e46; }
@@ -70,7 +70,7 @@ main {
   main h1 {
     position: relative;
     animation-name: top-fade-in;
-    animation-duration: 2s; }
+    animation-duration: 1.5s; }
 @keyframes top-fade-in {
   0% {
     top: -150px;
