@@ -63,10 +63,9 @@ main {
   display: flex;
   padding: 30px 150px 20px 280px; }
   main a {
-    color: #c06c84;
-    text-decoration: none; }
+    color: #393e46; }
   main a:hover {
-    color: #393e46;
+    color: #929aab;
     transition: .5s ease-in-out; }
   main h1 {
     position: relative;

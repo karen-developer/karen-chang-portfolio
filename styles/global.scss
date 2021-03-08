@@ -2,7 +2,6 @@ $color1       : #f7f7f7;
 $color2       : #eeeeee;
 $color3       : #929aab;
 $color4       : #393e46;
-$link: #c06c84;
 $light-shadow : 0 0 10px 0 rgba(50, 50, 50, 0.2);
 $strong-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4);
 
@@ -99,12 +98,11 @@ main {
     padding: 30px 150px 20px 280px;
 
     a {
-        color: $link;
-        text-decoration: none;
+        color: $color4;
     }
 
     a:hover {
-        color     : $color4;
+        color     : $color3;
         transition: .5s ease-in-out;
     }
 
