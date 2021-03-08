@@ -125,6 +125,8 @@ footer {
     margin-top: 5px; }
 
 .avatar-wrapper {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: #c06c84;
   margin-bottom: 20px; }
 
