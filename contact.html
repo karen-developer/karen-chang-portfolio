@@ -38,24 +38,47 @@
   <!-- Main -->
   <main class="contact">
     <h1>Contact</h1>
-    <section class="name-card">
-      <figure class="avatar">
-        <div class="avatar-wrapper">
-          <img src="images/karen/contact.jpeg" alt="Karen's Photo" />
+    <div class="contact-wrapper">
+      <section class="name-card">
+        <figure class="avatar">
+          <div class="avatar-wrapper">
+            <img src="images/karen/contact.jpeg" alt="Karen's Photo" />
+          </div>
+          <figcaption>
+            <h2>Karen Chang</h2>
+            <h5>Web Developer</h5>
+            <!-- <p>Resume<i class="fas fa-save"></i></p> -->
+          </figcaption>
+        </figure>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/karen-chang-dev/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/karen_developer" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/karendeveloper" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
-        <figcaption>
-          <h2>Karen Chang</h2>
-          <h5>Web Developer</h5>
-          <!-- <p>Resume<i class="fas fa-save"></i></p> -->
-        </figcaption>
-      </figure>
+      </section>
 
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/karen-chang-dev/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://www.instagram.com/karen_developer" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/karendeveloper" target="_blank"><i class="fab fa-twitter"></i></a>
-      </div>
-    </section>
+      <!-- Form -->
+      <section class="contact-form">
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label><input placeholder="Your Name" type="text" name="name" /></label>
+          </p>
+          <p>
+            <label><input placeholder="Your Email" type="email" name="email" /></label>
+          </p>
+          <p>
+            <label><textarea placeholder="Message" name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>© 2021 Made with <i class="far fa-heart"></i> by Karen Chang</p>
+    </footer>
   </main>
 </body>
 

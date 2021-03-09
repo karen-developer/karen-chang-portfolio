@@ -1,5 +1,12 @@
 @import "../global.scss";
 
+.contact-wrapper {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap             : 30px;
+    margin               : 10px 0 20px;
+}
+
 .name-card {
     display         : flex;
     flex-direction  : column;
@@ -7,7 +14,7 @@
     box-shadow      : $strong-shadow;
     border-radius   : 5px;
     text-transform  : uppercase;
-    margin          : 20px auto;
+    margin          : 0 auto;
 }
 
 .avatar {
@@ -21,7 +28,7 @@
     img {
         box-shadow   : $light-shadow;
         border-radius: 50%;
-        width        : 45%;
+        width        : 40%;
         margin       : 20px;
     }
 
@@ -38,7 +45,7 @@
     border-top-left-radius : 5px;
     border-top-right-radius: 5px;
     background-color       : $color5;
-    margin-bottom          : 20px;
+    margin-bottom          : 10px;
 }
 
 .contact-links {
@@ -51,12 +58,56 @@
         border       : 2px solid $color5;
         border-radius: 50%;
         padding      : 15px;
-        margin       : 10px 10px 40px;
+        margin       : 0 10px 30px;
         transition   : .3s ease-in-out;
     }
 
     i:hover {
         color : $color4;
         border: 2px solid $color4;
+    }
+}
+
+.contact-form {
+    display: flex;
+
+    input,
+    textarea {
+        color           : $color4;
+        font-size       : 20px;
+        background-color: $color2;
+        border          : none;
+        width           : 300px;
+    }
+
+    input {
+        border-bottom : 1px solid $color4;
+        padding-bottom: 20px;
+    }
+
+    textarea {
+        resize: none;
+        height: 180px;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+    }
+
+    ::placeholder {
+        color      : $color4;
+        font-family: 'Manrope', sans-serif;
+        font-size  : 16px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        justify-content: center;
     }
 }
