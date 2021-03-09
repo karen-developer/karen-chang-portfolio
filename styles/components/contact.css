@@ -164,6 +164,7 @@ footer {
     width: 250px; }
   .contact-form input {
     border-bottom: 1px solid #393e46;
+    border-radius: 0;
     padding-bottom: 20px; }
   .contact-form textarea {
     resize: none;
