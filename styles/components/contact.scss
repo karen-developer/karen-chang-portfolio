@@ -4,7 +4,7 @@
     display              : grid;
     grid-template-columns: 1fr 1fr;
     grid-gap             : 30px;
-    margin               : 10px 0 20px;
+    margin               : 0 0 20px;
 }
 
 .name-card {
@@ -29,14 +29,15 @@
         box-shadow   : $light-shadow;
         border-radius: 50%;
         width        : 40%;
-        margin       : 20px;
+        margin       : 20px auto;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     h5 {
+        font-size: 14px;
         margin-top: 5px;
     }
 }
@@ -46,6 +47,7 @@
     border-top-right-radius: 5px;
     background-color       : $color5;
     margin-bottom          : 10px;
+    margin-top: 2px;
 }
 
 .contact-links {
@@ -54,11 +56,11 @@
     align-items    : center;
 
     i {
-        font-size    : 26px;
+        font-size    : 24px;
         border       : 2px solid $color5;
         border-radius: 50%;
-        padding      : 15px;
-        margin       : 0 10px 30px;
+        padding      : 12px;
+        margin       : 0 10px 20px;
         transition   : .3s ease-in-out;
     }
 
@@ -74,10 +76,10 @@
     input,
     textarea {
         color           : $color4;
-        font-size       : 20px;
+        font-size       : 18px;
         background-color: $color2;
         border          : none;
-        width           : 300px;
+        width           : 250px;
     }
 
     input {
@@ -87,7 +89,7 @@
 
     textarea {
         resize: none;
-        height: 180px;
+        height: 130px;
     }
 
     input:focus,
