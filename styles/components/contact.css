@@ -102,7 +102,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  margin: 0 0 20px; }
+  margin: 20px auto 50px; }
 
 .name-card {
   display: flex;
@@ -110,8 +110,7 @@ footer {
   background-color: #f7f7f7;
   box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4);
   border-radius: 5px;
-  text-transform: uppercase;
-  margin: 0 auto; }
+  text-transform: uppercase; }
 
 .avatar {
   display: flex;
@@ -154,7 +153,9 @@ footer {
     border: 2px solid #393e46; }
 
 .contact-form {
-  display: flex; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .contact-form input,
   .contact-form textarea {
     color: #393e46;
@@ -176,6 +177,9 @@ footer {
     color: #393e46;
     font-family: 'Manrope', sans-serif;
     font-size: 16px; }
+  .contact-form button {
+    font-size: 16px;
+    padding: 5px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   .contact-wrapper {

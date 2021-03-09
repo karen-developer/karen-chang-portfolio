@@ -4,7 +4,7 @@
     display              : grid;
     grid-template-columns: 1fr 1fr;
     grid-gap             : 30px;
-    margin               : 0 0 20px;
+    margin               : 20px auto 50px;
 }
 
 .name-card {
@@ -14,7 +14,6 @@
     box-shadow      : $strong-shadow;
     border-radius   : 5px;
     text-transform  : uppercase;
-    margin          : 0 auto;
 }
 
 .avatar {
@@ -72,6 +71,8 @@
 
 .contact-form {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     input,
     textarea {
@@ -102,6 +103,11 @@
         color      : $color4;
         font-family: 'Manrope', sans-serif;
         font-size  : 16px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 5px;
     }
 }
 
