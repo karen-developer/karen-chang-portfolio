@@ -11,7 +11,7 @@
   .index h1 {
     text-transform: uppercase;
     font-size: 70px;
-    margin-bottom: 130px;
+    margin: 150px;
     animation-duration: 6s; }
   .index h4 {
     animation-duration: 4s; }
@@ -27,9 +27,9 @@
     top: 0; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   .index h1 {
-    font-size: 42px; }
+    font-size: 54px; }
   .index h4 {
-    font-size: 20px; }
+    font-size: 18px; }
   .index h5 {
     font-size: 16px; } }
 
