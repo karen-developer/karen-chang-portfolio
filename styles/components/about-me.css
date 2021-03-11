@@ -1,5 +1,4 @@
 body {
-  font-size: 22px;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
   background-color: #eeeeee;
@@ -63,7 +62,8 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  padding: 30px 150px 20px 280px; }
+  background-color: darkmagenta;
+  padding: 0; }
   main a {
     color: #c06c84;
     text-decoration: none; }
@@ -129,7 +129,7 @@ footer {
   .interests img {
     width: 130px;
     height: 130px;
-    margin: 30px; }
+    margin: 20px; }
 
 .interests-title {
   text-align: right; }
