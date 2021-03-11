@@ -1,3 +1,138 @@
+body {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  background-color: #eeeeee;
+  color: #393e46;
+  margin: 0; }
 
+h1 {
+  text-align: center; }
+
+h2 {
+  border-bottom: 2px solid #393e46;
+  padding-bottom: 12px; }
+
+p {
+  font-family: 'Manrope', sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 2px; }
+
+img {
+  border-radius: 5px; }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding: 0 25px;
+  font-size: 28px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
+  z-index: 1; }
+  nav a {
+    position: relative;
+    color: #929aab;
+    animation-name: left-fade-in;
+    animation-duration: 2s; }
+  nav a:hover {
+    color: #393e46;
+    transition: 1s ease;
+    transform: rotate(360deg); }
+  nav .active {
+    color: #393e46; }
+@keyframes left-fade-in {
+  0% {
+    left: -150px;
+    opacity: .1; }
+  50% {
+    font-size: 18px;
+    top: 0; }
+  100% {
+    left: 0; } }
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 150px 20px 240px; }
+  main a {
+    color: #c06c84;
+    text-decoration: none; }
+  main a:hover {
+    color: #393e46;
+    transition: .5s ease-in-out; }
+  main h1 {
+    position: relative;
+    animation-name: top-fade-in;
+    animation-duration: 2s; }
+@keyframes top-fade-in {
+  0% {
+    top: -150px;
+    opacity: 0.1; }
+  50% {
+    font-size: 30px;
+    top: 0; }
+  100% {
+    top: 0; } }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  nav {
+    flex-direction: row;
+    width: 100vw;
+    height: 40px;
+    padding: 20px 0; }
+
+  main {
+    padding: 100px 60px 20px 60px; }
+
+  footer {
+    font-size: 13px; } }
+.blog {
+  padding-top: 0; }
+
+.blog-wrapper {
+  display: flex; }
+
+.blog-list {
+  position: fixed;
+  top: 30px;
+  left: 220px;
+  width: 250px;
+  font-size: 10px; }
+  .blog-list h1 {
+    text-align: left;
+    font-size: 40px; }
+  .blog-list figure {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    border-top: 1px solid #929aab; }
+  .blog-list figcaption {
+    text-transform: uppercase;
+    margin: 0; }
+  .blog-list img {
+    width: 50px;
+    height: 50px;
+    margin: 25px 15px 10px 0; }
+
+.blog-posts {
+  margin-left: 280px; }
+
+.single-post {
+  padding-top: 70px; }
 
 /*# sourceMappingURL=blog.css.map */

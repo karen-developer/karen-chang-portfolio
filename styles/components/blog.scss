@@ -1,0 +1,48 @@
+@import "../globals.scss";
+
+.blog {
+    padding-top: 0;
+}
+
+.blog-wrapper {
+    display         : flex;
+}
+
+.blog-list {
+    position: fixed;
+    top: 30px;
+    left: 220px;
+    width: 250px;
+    font-size: 10px;
+
+    h1 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    figure {
+        display: flex;
+        align-items: center;
+        margin: 12px 0;
+        border-top: 1px solid $color3;
+    }
+    
+    figcaption {
+        text-transform    : uppercase;
+        margin: 0;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin: 25px 15px 10px 0;
+    }
+}
+
+.blog-posts {
+    margin-left     : 280px;
+}
+
+.single-post {
+    padding-top: 70px;
+}
