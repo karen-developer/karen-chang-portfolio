@@ -34,7 +34,9 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   height: 100vh;
-  font-size: 26px;
+  width: 30px;
+  padding: 0 30px;
+  font-size: 28px;
   background-color: #f7f7f7;
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
   z-index: 1; }
@@ -42,17 +44,17 @@ nav {
     position: relative;
     color: #929aab;
     animation-name: left-fade-in;
-    animation-duration: 1.5s; }
+    animation-duration: 2s; }
   nav a:hover {
     color: #393e46;
-    transition: .5s ease-in-out;
+    transition: 1s ease;
     transform: rotate(360deg); }
   nav .active {
     color: #393e46; }
 @keyframes left-fade-in {
   0% {
     left: -150px;
-    opacity: 0.1; }
+    opacity: .1; }
   50% {
     font-size: 18px;
     top: 0; }
@@ -60,6 +62,7 @@ nav {
     left: 0; } }
 main {
   display: flex;
+  flex-direction: column;
   padding: 30px 150px 20px 280px; }
   main a {
     color: #c06c84;
@@ -70,7 +73,7 @@ main {
   main h1 {
     position: relative;
     animation-name: top-fade-in;
-    animation-duration: 1.5s; }
+    animation-duration: 2s; }
 @keyframes top-fade-in {
   0% {
     top: -150px;
@@ -85,13 +88,14 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  margin-top: 10px; }
+  margin-bottom: 15px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   nav {
     flex-direction: row;
     width: 100vw;
-    height: 26px; }
+    height: 40px;
+    padding: 20px 0; }
 
   main {
     padding: 100px 60px 20px 60px; }
