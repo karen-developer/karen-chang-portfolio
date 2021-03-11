@@ -107,7 +107,8 @@ footer {
   grid-template-columns: 1.5fr 1fr;
   justify-items: center;
   align-items: center;
-  margin: 20px 0 30px; }
+  grid-gap: 10px;
+  margin: 10px 0 20px; }
 
 .tools {
   display: flex;
@@ -116,12 +117,12 @@ footer {
   background-color: #f7f7f7;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
-  padding: 30px 0; }
+  padding: 20px 0; }
   .tools svg,
   .tools img {
     width: 45px;
     height: 45px;
-    margin: 15px; }
+    margin: 10px; }
 
 .fullstack-list {
   display: flex;
@@ -175,14 +176,14 @@ footer {
     grid-template-columns: 1fr; }
 
   .fullstack {
-    margin-bottom: 0; }
+    margin-top: 20px; }
 
   .tools {
-    padding: 16px 0; }
+    padding: 13px 0; }
     .tools svg,
     .tools img {
-      width: 26px;
-      height: 26px;
-      margin: 6px; } }
+      width: 25px;
+      height: 25px;
+      margin: 7px; } }
 
 /*# sourceMappingURL=skills.css.map */
