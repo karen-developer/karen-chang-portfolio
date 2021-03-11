@@ -61,9 +61,7 @@ nav {
     left: 0; } }
 main {
   display: flex;
-  flex-direction: column;
-  background-color: darkmagenta;
-  padding: 0; }
+  flex-direction: column; }
   main a {
     color: #c06c84;
     text-decoration: none; }
