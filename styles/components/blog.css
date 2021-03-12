@@ -99,6 +99,8 @@ footer {
     font-size: 16px; } }
 .blog {
   padding: 0; }
+  .blog footer {
+    margin: 20px; }
 
 .blog-header {
   margin-top: -75px;
