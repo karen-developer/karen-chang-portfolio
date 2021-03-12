@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Manrope', sans-serif;
   letter-spacing: 1px;
   background-color: #eeeeee;
   color: #393e46;
@@ -13,14 +13,10 @@ h2 {
   border-bottom: 2px solid #393e46;
   padding-bottom: 12px; }
 
-p {
-  font-family: 'Manrope', sans-serif; }
-
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 2px; }
 
 img {
@@ -86,53 +82,151 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
-  margin-bottom: 15px; }
+  font-size: 16px;
+  margin-top: 15px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   nav {
     flex-direction: row;
     width: 100vw;
-    height: 40px;
+    height: 30px;
     padding: 20px 0; }
 
   main {
     padding: 100px 60px 20px 60px; }
 
   footer {
-    font-size: 13px; } }
+    font-size: 16px; } }
 .blog {
-  padding-top: 0; }
+  padding: 0; }
+
+.blog-header {
+  margin-top: -75px;
+  visibility: hidden; }
 
 .blog-wrapper {
-  display: flex; }
+  display: flex;
+  margin-bottom: 10px; }
 
 .blog-list {
   position: fixed;
-  top: 30px;
-  left: 220px;
-  width: 250px;
+  top: 80px;
+  right: 120px;
+  width: 190px;
   font-size: 10px; }
   .blog-list h1 {
+    font-size: 38px;
     text-align: left;
-    font-size: 40px; }
-  .blog-list figure {
-    display: flex;
-    align-items: center;
-    margin: 12px 0;
-    border-top: 1px solid #929aab; }
-  .blog-list figcaption {
+    margin-bottom: 20px; }
+  .blog-list ul {
+    list-style: none;
+    padding: 0; }
+  .blog-list li {
+    border-top: 1px solid #ccc;
+    padding: 5px 5px 10px; }
+  .blog-list li:last-child {
+    border-bottom: 1px solid #ccc; }
+  .blog-list h3 {
     text-transform: uppercase;
-    margin: 0; }
-  .blog-list img {
-    width: 50px;
-    height: 50px;
-    margin: 25px 15px 10px 0; }
+    font-style: italic; }
 
 .blog-posts {
-  margin-left: 280px; }
+  margin: 0 400px 0 200px; }
+  .blog-posts h3 {
+    text-transform: uppercase; }
 
-.single-post {
-  padding-top: 70px; }
+.article-anchor {
+  padding: 40px; }
+
+article {
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2); }
+  article .header-wrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #ccc; }
+
+.time-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+  padding: 20px 15px 15px; }
+  .time-wrapper time {
+    font-size: 16px;
+    margin-bottom: 12px; }
+  .time-wrapper figure {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0; }
+  .time-wrapper figcaption {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 3px 0 0 5px; }
+  .time-wrapper img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.2);
+    margin: 0 6px; }
+
+.content {
+  padding: 10px 60px 30px; }
+  .content img {
+    width: 180px;
+    height: 180px;
+    box-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4);
+    margin: 20px 20px 20px 0; }
+  .content figure {
+    display: flex;
+    align-items: center; }
+  .content figcaption {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px; }
+  .content h4 {
+    text-transform: uppercase; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  .blog {
+    padding: 30px 0 0; }
+
+  .blog-header {
+    visibility: visible;
+    margin-top: 100px; }
+
+  .blog-list {
+    visibility: hidden; }
+
+  .blog-posts {
+    margin: 0; }
+
+  .article-anchor {
+    padding: 25px; }
+
+  article {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none; }
+    article .header-wrapper {
+      grid-template-columns: 1fr;
+      padding: 10px 0; }
+    article .time-wrapper {
+      border: none; }
+      article .time-wrapper time {
+        padding-bottom: 10px; }
+      article .time-wrapper figure {
+        flex-direction: row; }
+
+  .content {
+    padding: 30px 60px; }
+    .content figure {
+      flex-direction: column; } }
 
 /*# sourceMappingURL=blog.css.map */
