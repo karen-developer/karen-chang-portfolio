@@ -106,6 +106,25 @@ footer {
   margin-top: -75px;
   visibility: hidden; }
 
+.blog-numberlist {
+  visibility: hidden;
+  position: fixed;
+  width: 100vw;
+  background-color: #f7f7f7; }
+  .blog-numberlist h1 {
+    font-size: 40px;
+    margin-top: 120px; }
+  .blog-numberlist ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    margin: -20px 0 0 0; }
+  .blog-numberlist li {
+    margin: 0 20px; }
+
 .blog-wrapper {
   display: flex;
   margin-bottom: 10px; }
@@ -133,7 +152,7 @@ footer {
     font-style: italic; }
 
 .blog-posts {
-  margin: 0 100px 0 420px; }
+  margin: 10px 100px 0 420px; }
   .blog-posts h3 {
     text-transform: uppercase; }
 
@@ -196,20 +215,24 @@ article {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   .blog {
-    padding: 30px 0 0; }
+    padding: 0; }
 
   .blog-header {
     visibility: visible;
     margin-top: 100px; }
 
+  .blog-numberlist {
+    visibility: visible;
+    margin: 0; }
+
   .blog-list {
     visibility: hidden; }
 
   .blog-posts {
-    margin: 0; }
+    margin: 10px 0 0 0; }
 
   .article-anchor {
-    padding: 25px; }
+    padding: 120px; }
 
   article {
     border-top: 1px solid #ccc;
