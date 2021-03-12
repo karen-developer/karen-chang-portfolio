@@ -69,8 +69,8 @@ main {
     color: #c06c84;
     text-decoration: none; }
   main a:hover {
-    color: #393e46;
-    transition: .5s ease-in-out; }
+    color: #929aab;
+    transition: .3s ease-in-out; }
   main h1 {
     position: relative;
     animation-name: top-fade-in;

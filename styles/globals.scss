@@ -13,7 +13,7 @@ $strong-shadow: 10px 15px 15px -5px rgba(50, 50, 50, 0.4);
 
 body {
     font-size       : 20px;
-    font-family: 'Manrope', sans-serif;
+    font-family     : 'Manrope', sans-serif;
     letter-spacing  : 1px;
     background-color: $color2;
     color           : $color4;
@@ -31,7 +31,7 @@ h2 {
 h1,
 h2,
 h3 {
-    font-family     : 'Raleway', sans-serif;
+    font-family   : 'Raleway', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -100,8 +100,8 @@ main {
     }
 
     a:hover {
-        color     : $color4;
-        transition: .5s ease-in-out;
+        color     : $color3;
+        transition: .3s ease-in-out;
     }
 
     h1 {
