@@ -2,6 +2,7 @@
 
 .blog {
     padding: 0;
+
     footer {
         margin: 20px;
     }
@@ -20,7 +21,7 @@
 .blog-list {
     position : fixed;
     top      : 80px;
-    right    : 120px;
+    left     : 150px;
     width    : 190px;
     font-size: 10px;
 
@@ -51,7 +52,7 @@
 }
 
 .blog-posts {
-    margin: 0 400px 0 200px;
+    margin: 0 100px 0 420px;
 
     h3 {
         text-transform: uppercase;
@@ -122,8 +123,8 @@ article {
     }
 
     figure {
-        display        : flex;
-        align-items    : center;
+        display    : flex;
+        align-items: center;
     }
 
     figcaption {
@@ -184,7 +185,7 @@ article {
     }
 
     .content {
-        padding: 30px 60px;
+        padding: 25px 50px;
 
         figure {
             flex-direction: column;

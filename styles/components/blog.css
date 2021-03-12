@@ -113,7 +113,7 @@ footer {
 .blog-list {
   position: fixed;
   top: 80px;
-  right: 120px;
+  left: 150px;
   width: 190px;
   font-size: 10px; }
   .blog-list h1 {
@@ -133,7 +133,7 @@ footer {
     font-style: italic; }
 
 .blog-posts {
-  margin: 0 400px 0 200px; }
+  margin: 0 100px 0 420px; }
   .blog-posts h3 {
     text-transform: uppercase; }
 
@@ -227,7 +227,7 @@ article {
         flex-direction: row; }
 
   .content {
-    padding: 30px 60px; }
+    padding: 25px 50px; }
     .content figure {
       flex-direction: column; } }
 
