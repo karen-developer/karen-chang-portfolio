@@ -12,6 +12,13 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 - technical knowledge relating to information technology, software development/coding, programming languages and development stacks
 - high expectations of professionalism and a positive work ethic
 
+## Features
+1. Creative design
+1. Information about myself
+1. Personal skills and projects
+1. Repo and social media accounts
+1. Contact form
+
 ## Tech stack 
 - HTML 
 - Sass/CSS
@@ -22,12 +29,12 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 - Subresource integrity (SRI) implemented
 - W3S Markup/CSS validation checker passed 
 
-## Features
-1. Creative design
-1. Information about myself
-1. Personal skills and projects
-1. Repo and social media accounts
-1. Contact form
+## Design Concepts
+- Pure CSS and no JavaScript
+- No more than 5 colours 
+- No more than 2 fonts
+- Clean look
+- More personal and less commercial
 
 ## Sitemap
 ![Sitemap](images/readme/sitemap.jpg)
