@@ -3,9 +3,10 @@
 ### Published link: [karen-developer.com](https://karen-developer.com/)
 
 ## Purpose
-Create a portfolio website which provides information about me, my skills, interests, professional knowledge and a showcase of my work.
+Create a portfolio website which provides information about me, my interests, skills, professional knowledge of web development and a showcase of my work.
 
 ## Target audience
+
 An employer looking to engage a dev and/or IT professional. Expect the employer to have the following knowledge and expectations:
 
 - technical knowledge relating to information technology, software development/coding, programming languages and development stacks
@@ -18,13 +19,14 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
     - Grid
     - Variables
     - Mixin
-- Subresource integrity (SRI)  implementation 
+- Subresource integrity (SRI) implemented
+- W3S Markup/CSS validation checker passed 
 
 ## Features
 1. Creative design
 1. Information about myself
 1. Personal skills and projects
-1. Social media accounts
+1. Repo and social media accounts
 1. Contact form
 
 ## Sitemap
