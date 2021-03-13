@@ -93,7 +93,7 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 100px 60px 20px 60px; }
+    padding: 80px 50px 20px 50px; }
 
   footer {
     font-size: 16px; } }
@@ -102,8 +102,8 @@ footer {
   justify-items: center;
   text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-gap: 65px;
-  margin: 30px 0; }
+  grid-gap: 50px;
+  margin: 25px 0; }
   .projects img {
     width: 240px;
     height: 170px;
@@ -141,7 +141,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 60px; }
+  margin: 30px 0 -20px; }
   .repo i {
     font-size: 35px;
     color: #393e46;

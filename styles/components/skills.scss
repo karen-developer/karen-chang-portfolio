@@ -5,8 +5,7 @@
     grid-template-columns: 1.5fr 1fr;
     justify-items        : center;
     align-items          : center;
-    grid-gap             : 10px;
-    margin               : 10px 0 20px;
+    margin               : 20px 0 30px;
 }
 
 .tools {
@@ -20,8 +19,8 @@
 
     svg,
     img {
-        width : 45px;
-        height: 45px;
+        width : 40px;
+        height: 40px;
         margin: 10px;
     }
 }
@@ -30,7 +29,6 @@
     display       : flex;
     flex-direction: column;
     align-items   : center;
-    margin        : 50px 0;
 
     h3 {
         font-size     : 30px;
@@ -56,7 +54,6 @@
     align-items          : top;
     text-align           : center;
     grid-template-columns: 1fr 1fr;
-    margin               : 15px 0;
 
     img {
         width     : 240px;
@@ -104,17 +101,17 @@
     }
 
     .fullstack {
-        margin-top: 20px;
+        grid-gap: 40px;
     }
 
     .tools {
-        padding: 13px 0;
+        padding: 15px 0;
 
         svg,
         img {
             width : 25px;
             height: 25px;
-            margin: 7px;
+            margin: 8px;
         }
     }
 }

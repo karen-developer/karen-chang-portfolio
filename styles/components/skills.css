@@ -93,7 +93,7 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 100px 60px 20px 60px; }
+    padding: 80px 50px 20px 50px; }
 
   footer {
     font-size: 16px; } }
@@ -102,8 +102,7 @@ footer {
   grid-template-columns: 1.5fr 1fr;
   justify-items: center;
   align-items: center;
-  grid-gap: 10px;
-  margin: 10px 0 20px; }
+  margin: 20px 0 30px; }
 
 .tools {
   display: flex;
@@ -115,15 +114,14 @@ footer {
   padding: 20px 0; }
   .tools svg,
   .tools img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     margin: 10px; }
 
 .fullstack-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 50px 0; }
+  align-items: center; }
   .fullstack-list h3 {
     font-size: 30px;
     text-transform: uppercase;
@@ -141,8 +139,7 @@ footer {
   justify-items: center;
   align-items: top;
   text-align: center;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px 0; }
+  grid-template-columns: 1fr 1fr; }
   .certification img {
     width: 240px;
     height: 170px;
@@ -171,14 +168,14 @@ footer {
     grid-template-columns: 1fr; }
 
   .fullstack {
-    margin-top: 20px; }
+    grid-gap: 40px; }
 
   .tools {
-    padding: 13px 0; }
+    padding: 15px 0; }
     .tools svg,
     .tools img {
       width: 25px;
       height: 25px;
-      margin: 7px; } }
+      margin: 8px; } }
 
 /*# sourceMappingURL=skills.css.map */

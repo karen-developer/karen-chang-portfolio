@@ -93,7 +93,7 @@ footer {
     padding: 20px 0; }
 
   main {
-    padding: 100px 60px 20px 60px; }
+    padding: 80px 50px 20px 50px; }
 
   footer {
     font-size: 16px; } }
@@ -119,12 +119,10 @@ footer {
     height: 150px;
     margin: 20px; }
 
-.interests {
-  margin-bottom: 70px; }
-  .interests img {
-    width: 130px;
-    height: 130px;
-    margin: 20px; }
+.interests img {
+  width: 130px;
+  height: 130px;
+  margin: 20px; }
 
 .interests-title {
   text-align: right; }
@@ -139,7 +137,7 @@ footer {
     flex-direction: column;
     margin: 0; }
     .bio img {
-      margin: 15px 0 30px; }
+      margin: 10px 0 20px; }
 
   .challenge {
     flex-direction: column;
