@@ -1,6 +1,6 @@
 # Karen Chang's Portfolio Website
 
-### Published link: [karen-developer.com](karen-developer.com)
+### Published link: [karen-developer.com](https://karen-developer.com/)
 
 ## Purpose
 Create a portfolio website which provides information about me, my skills, interests, professional knowledge and a showcase of my work.
