@@ -20,7 +20,7 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 1. Contact form
 
 ## Tech stack 
-- HTML 
+- HTML with semantic elements
 - Sass/CSS
     - Flexbox
     - Grid
@@ -31,9 +31,9 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 
 ## Design Concepts
 - Pure CSS and no JavaScript
+- Clean look
 - No more than 5 colours 
 - No more than 2 fonts
-- Clean look
 - More personal and less commercial
 
 ## Sitemap
