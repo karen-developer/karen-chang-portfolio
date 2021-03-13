@@ -85,6 +85,10 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .projects {
+        margin-top: 10px;
+    }
+
     .repo {
         i {
             font-size   : 30px;
