@@ -102,19 +102,41 @@ footer {
   .blog footer {
     margin: 20px; }
 
-.blog-header {
-  margin-top: -75px;
-  visibility: hidden; }
+.blog-wrapper {
+  display: flex;
+  margin-bottom: 10px; }
 
-.blog-numberlist {
+.article-list {
+  position: fixed;
+  top: 80px;
+  left: 150px;
+  width: 190px;
+  font-size: 10px; }
+  .article-list h1 {
+    font-size: 38px;
+    text-align: left;
+    margin-bottom: 20px; }
+  .article-list ul {
+    list-style: none;
+    padding: 0; }
+  .article-list li {
+    border-top: 1px solid #ccc;
+    padding: 5px 5px 10px; }
+  .article-list li:last-child {
+    border-bottom: 1px solid #ccc; }
+  .article-list h3 {
+    text-transform: uppercase;
+    font-style: italic; }
+
+.mobile-article-list {
   visibility: hidden;
   position: fixed;
   width: 100vw;
   background-color: #f7f7f7; }
-  .blog-numberlist h1 {
+  .mobile-article-list h1 {
     font-size: 40px;
     margin-top: 95px; }
-  .blog-numberlist ul {
+  .mobile-article-list ul {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -122,38 +144,12 @@ footer {
     border-bottom: 1px solid #ccc;
     padding: 0;
     margin: -40px 0 0 0; }
-  .blog-numberlist li {
+  .mobile-article-list li {
     margin: 0 20px; }
 
-.blog-wrapper {
-  display: flex;
-  margin-bottom: 10px; }
-
-.blog-list {
-  position: fixed;
-  top: 80px;
-  left: 150px;
-  width: 190px;
-  font-size: 10px; }
-  .blog-list h1 {
-    font-size: 38px;
-    text-align: left;
-    margin-bottom: 20px; }
-  .blog-list ul {
-    list-style: none;
-    padding: 0; }
-  .blog-list li {
-    border-top: 1px solid #ccc;
-    padding: 5px 5px 10px; }
-  .blog-list li:last-child {
-    border-bottom: 1px solid #ccc; }
-  .blog-list h3 {
-    text-transform: uppercase;
-    font-style: italic; }
-
-.blog-posts {
+.blog-articles {
   margin: 10px 100px 0 420px; }
-  .blog-posts h3 {
+  .blog-articles h3 {
     text-transform: uppercase; }
 
 .article-anchor {
@@ -217,18 +213,14 @@ article {
   .blog {
     padding: 0; }
 
-  .blog-header {
-    visibility: visible;
-    margin-top: 100px; }
-
-  .blog-numberlist {
+  .mobile-article-list {
     visibility: visible;
     margin: 0; }
 
-  .blog-list {
+  .article-list {
     visibility: hidden; }
 
-  .blog-posts {
+  .blog-articles {
     margin: 10px 0 0 0; }
 
   .article-anchor {
