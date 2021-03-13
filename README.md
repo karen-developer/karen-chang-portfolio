@@ -37,29 +37,29 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 - More personal and less commercial
 
 ## Sitemap
-![Sitemap](docs/sitemap.jpg)
+![Sitemap](docs/sitemap.jpeg)
 
 ## Screenshots
 ### Home Page
-![Home](docs/home.jpg)
-![Home](docs/home-mobile.jpg)
+![Home](docs/home.jpeg)
+![Home](docs/home-mobile.jpeg)
 
 ### About Me Page
-![About Me](docs/about-me.jpg)
-![About Me](docs/about-me-mobile.jpg)
+![About Me](docs/about-me.jpeg)
+![About Me](docs/about-me-mobile.jpeg)
 
 ### Skills Page
-![Skills](docs/skills.jpg)
-![Skills](docs/skills-mobile.jpg)
+![Skills](docs/skills.jpeg)
+![Skills](docs/skills-mobile.jpeg)
 
 ### Projects Page
-![Projects](docs/projects.jpg)
-![Projects](docs/projects-mobile.jpg)
+![Projects](docs/projects.jpeg)
+![Projects](docs/projects-mobile.jpeg)
 
 ### Blog Page
-![Blog](docs/blog.jpg)
-![Blog](docs/blog-mobile.jpg)
+![Blog](docs/blog.jpeg)
+![Blog](docs/blog-mobile.jpeg)
 
 ### Contact Page
-![Contact](docs/contact.jpg)
-![Contact](docs/contact-mobile.jpg)
+![Contact](docs/contact.jpeg)
+![Contact](docs/contact-mobile.jpeg)
