@@ -91,7 +91,7 @@ footer {
   font-size: 16px;
   margin-top: 15px; }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 800px) {
   nav {
     flex-direction: row;
     width: 100vw;
