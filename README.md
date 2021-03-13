@@ -20,7 +20,7 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 1. Contact form
 
 ## Tech stack 
-- HTML with semantic elements
+- Semantic HTML elements and attributes
 - Sass/CSS
     - Flexbox
     - Grid
