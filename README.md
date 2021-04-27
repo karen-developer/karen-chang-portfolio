@@ -40,7 +40,7 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 ![Sitemap](docs/sitemap.jpeg)
 
 ## Screenshots
-### Home Page - Welcome to My Portfolio Webiste
+### Home Page - Welcome to Karen Chang's Portfolio Webiste
 ![Home](docs/home.jpeg)
 ![Home](docs/home-mobile.jpeg)
 
