@@ -40,26 +40,26 @@ An employer looking to engage a dev and/or IT professional. Expect the employer 
 ![Sitemap](docs/sitemap.jpeg)
 
 ## Screenshots
-### Home Page
+### Home Page - Welcome to Karen Chang's Portfolio Webiste
 ![Home](docs/home.jpeg)
 ![Home](docs/home-mobile.jpeg)
 
-### About Me Page
+### About Me Page - About Myself, Achivements and Interests
 ![About Me](docs/about-me.jpeg)
 ![About Me](docs/about-me-mobile.jpeg)
 
-### Skills Page
+### Skills Page - Learned Programming Languages, Skills and Certifications
 ![Skills](docs/skills.jpeg)
 ![Skills](docs/skills-mobile.jpeg)
 
-### Projects Page
+### Projects Page - My Personal Projects
 ![Projects](docs/projects.jpeg)
 ![Projects](docs/projects-mobile.jpeg)
 
-### Blog Page
+### Blog Page - My Blog Posts 
 ![Blog](docs/blog.jpeg)
 ![Blog](docs/blog-mobile.jpeg)
 
-### Contact Page
+### Contact Page - My Contact Info and Message Form
 ![Contact](docs/contact.jpeg)
 ![Contact](docs/contact-mobile.jpeg)
